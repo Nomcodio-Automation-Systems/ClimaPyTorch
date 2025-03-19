@@ -65,7 +65,7 @@ def main():
 
     net = ClimaNet(4, 50, 50, 50, 1).to(options.device)
    
-    options.info_file_path = "temp-co2csv8.csv"pi
+    options.info_file_path = "temp-co2csv8.csv"
     options.learning_rate = 0.001
 
     data = load_csv(options.info_file_path)
